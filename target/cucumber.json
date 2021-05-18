@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate customer is able to login successfully",
+        "description": "",
+        "id": "to-verify-login-functionality;to-validate-customer-is-able-to-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 667684100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5144256200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Customer is on login page",
+            "match": {
+              "location": "LoginSteps.customerIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233580400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer logged in with valid credentials",
+            "match": {
+              "location": "LoginSteps.customerLoggedInWithValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17753397400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer create a blog",
+            "match": {
+              "location": "LoginSteps.customerCreateBlog()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify login functionality",
+    "description": "",
+    "id": "to-verify-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/Login.feature",
+    "tags": []
+  }
+]
